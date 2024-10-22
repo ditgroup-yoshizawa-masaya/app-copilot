@@ -1,4 +1,3 @@
-
 /**
  * 指定されたユーザー名とパスワードを使用して認証を行います。
  * 
@@ -7,7 +6,6 @@
  * @returns {boolean} 認証が成功した場合はtrue、失敗した場合はfalseを返します。
  */
 function authenticate(username, password) {
-    alert('Authenticating...');
     const users = [
         { username: 'user1', password: 'password1' },
         { username: 'user2', password: 'password2' }
