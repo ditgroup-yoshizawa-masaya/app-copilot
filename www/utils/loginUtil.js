@@ -20,3 +20,5 @@ function authenticate(username, password) {
     }
     return false;
 }
+
+module.exports = { authenticate };
