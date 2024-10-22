@@ -1,4 +1,4 @@
-const { authenticate } = require('./loginUtil');
+const { authenticate } = require('../loginUtil');
 
 describe('authenticate', () => {
     test('should return true for valid username and password', () => {
