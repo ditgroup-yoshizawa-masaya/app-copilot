@@ -6,4 +6,15 @@ jobs:
   echo_hello_world:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "hello world!!!!"
+      - name: Hello world action
+        run: echo "Hello world"
+      - name: Checkout
+        uses: actions/checkout@v2
+      #jestをインストール
+      - name: Install Jest
+        run: npm install jest
+      #jestを実行
+      - name: Run Jest
+        run: npx jest
+
+
